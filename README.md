@@ -10,7 +10,7 @@
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/foxytouxxx/freeroot.git
+    git clone https://github.com/NotGamerPratham/freeroot.git
     ```
 2. Go into the Cloned File
     ```sh
