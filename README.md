@@ -11,15 +11,13 @@
 
     ```sh
     git clone https://github.com/foxytouxxx/freeroot.git
+    ```
+2. Go into the Cloned File
+    ```sh
     cd freeroot
     ```
+3. Run the installer script:
 
-2. Run the installer script:
-
-    ```sh
-    ./root.sh
-    ```
-    or
     ```sh
     bash root.sh
     ```
