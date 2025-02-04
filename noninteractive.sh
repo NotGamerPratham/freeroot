@@ -25,7 +25,7 @@ if [ ! -e $ROOTFS_DIR/.installed ]; then
   echo "#"
   echo "#######################################################################################"
 
-  read -p "Do you want to install Ubuntu? (YES/no): " install_ubuntu
+  install_ubuntu=YES
 fi
 
 case $install_ubuntu in
@@ -74,6 +74,8 @@ display_gg() {
   echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
   echo -e ""
   echo -e "           ${CYAN}-----> Mission Completed ! <----${RESET_COLOR}"
+  echo -e ""
+  echo -e "${WHITE}___________________________________________________${RESET_COLOR}"
 }
 
 clear
